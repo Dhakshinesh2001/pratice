@@ -1,0 +1,130 @@
+body {
+    background-color: #0e0e0e;
+    color: #e9eaeb;
+    justify-content: center;
+    margin: auto;
+    
+
+
+}
+input {
+    background-color: #0e0e0e;
+    color: #e9eaeb;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #e9eaeb;
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #e9eaeb;
+  }
+#nav-bar-vscode{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    /* background-color: aqua; */
+}
+  
+.all {
+    width: 1250px;
+    margin:auto;
+
+}
+.navbar {
+    display: flex;
+    /* width: 1200px; */
+    /* background-color: #0b3873; */
+    justify-content:space-between;
+    margin: 20px auto;
+    vertical-align: text-bottom;
+    
+    
+}
+#nav-items{
+    padding-top: 6px;
+}
+#navbar-one {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+input {
+    border-radius: 3px;
+    padding: 4px;
+}
+
+#top-right-download {
+    background-color: #0078d4;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.highlights {
+    background-color: #181818;
+    
+    padding : 12px 12px 12px 12px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 24px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: medium;
+}
+.all.section-2 {
+    margin: 120px auto;
+    display: flex;
+    /* background-color: bisque; */
+}
+.left-text {
+    max-width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    margin:auto;
+    
+}
+#main-img {
+    max-width: 66%;
+    margin-left: 40px;
+    margin-right: 0;
+    align-self: flex-end;
+}
+#img {
+    width: 100%;
+}
+.big-text{
+    font-size: 50;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+#big-download {
+    background-color: #0078d4;
+    max-width: 60%;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin:20px 0 20px 0;
+    font-size: larger;
+
+
+}
+#small-links {
+    font-weight: 200;
+    color: #0078d4;
+    text-decoration: underline;
+}
+.small-links {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#tnc {
+    font-size: small;
+}
