@@ -13,6 +13,7 @@ input {
 }
 a {
     text-decoration: none;
+   
 }
 a:link {
     color: #e9eaeb;
@@ -28,6 +29,14 @@ a:link {
     font-weight: 600;
     font-size: larger;
     /* background-color: aqua; */
+}
+#navbar-left {
+    display: flex;
+}
+#nav-bar-logo{
+    height: 24px;
+    padding-right: 16px;
+    /* padding-top: 3px; */
 }
   
 .all {
